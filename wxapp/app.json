@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/component/cart/cart",
+    "pages/component/category/category",
+    "pages/component/index",
+    "pages/component/person/person",
+    "pages/component/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fbfbfb",
+    "navigationBarTitleText": "Mall",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/component/index",
+        "text": "首页",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home_active.png"
+      },
+      {
+        "pagePath": "pages/component/category/category",
+        "text": "分类",
+        "iconPath": "images/icon/category.png",
+        "selectedIconPath": "images/icon/category_active.png"
+      },
+      {
+        "pagePath": "pages/component/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/icon/cart.png",
+        "selectedIconPath": "images/icon/cart_active.png"
+      },
+      {
+        "pagePath": "pages/component/person/person",
+        "text": "个人",
+        "iconPath": "images/icon/person.png",
+        "selectedIconPath": "images/icon/person_active.png"
+      }
+    ],
+    "color": "#2c2c2c",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

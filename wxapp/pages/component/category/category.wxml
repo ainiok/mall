@@ -1,0 +1,58 @@
+<view class='classesBox'>
+  <!--导航  -->
+  <scroll-view class='nav' scroll-y='true'>
+    <view class='select'>居家</view>
+    <view>餐厨</view>
+    <view>配件</view>
+    <view>服装</view>
+    <view>洗护</view>
+    <view>婴童</view>
+    <view>杂货</view>
+    <view>饮食</view>
+    <view>志趣</view>
+    <view>志趣</view>
+    <view>志趣</view>
+    <view>志趣</view>
+    <view>志趣</view>
+    <view>志趣</view>
+    <view>志趣</view>
+  </scroll-view>
+
+  <!--视图  -->
+  <scroll-view scroll-y='true' class='navView'>
+    <view class='banner'>
+      <image src='/images/3.png' mode='aspectFit'></image>
+    </view>
+    <view class='selectView'>
+      <view class='classesTitle'>居家分类</view>
+      <view class="view-line"></view>
+      <view class='selectMenu'>
+        <navigator>
+          <!-- <image src='../../images/emoji/emoji-1.png'></image> -->
+          <image src='/images/s1.png'></image>
+          <view>家具</view>
+        </navigator>
+        <navigator>
+        <image src='/images/s1.png'></image>
+          <view>被套</view>
+        </navigator>
+        <navigator>
+        <image src='/images/s1.png'></image>
+          <view>布艺软装</view>
+        </navigator>
+        <navigator>
+        <image src='/images/s1.png'></image>
+          <view>收纳</view>
+        </navigator>
+        <navigator>
+        <image src='/images/s1.png'></image>
+          <view>家具</view>
+        </navigator>
+        <navigator>
+        <image src='/images/s1.png'></image>
+          <view>家饰</view>
+        </navigator>
+      </view>
+    </view>
+  </scroll-view>
+</view>
